@@ -1,0 +1,30 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+input {
+  outline: none!important;
+  border: none;
+}
+
+label {
+  margin: 0;
+  display: block;
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}

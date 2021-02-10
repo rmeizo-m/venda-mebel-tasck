@@ -1,0 +1,53 @@
+.btn {
+  padding: 15px 16.5px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+
+  &-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px 5px 30px;
+    border-top: 1px solid #F2F2F2;
+  }
+
+  &-enter {
+    position: relative;
+    padding: 16.5px 29px 16.5px 15px;
+    color: #FFFFFF;
+    background: radial-gradient(5422.06% 1119.76% at 0% 288.54%, #3C8291 0%, #00B5AD 100%);
+    border-radius: 6px;
+
+    &:hover {
+      background: linear-gradient(90.26deg, #00B5AD -75.74%, #5F3264 87.41%);
+    }
+
+    &:disabled {
+      background: #EBEBEB;
+      color: #949494;
+    }
+  }
+
+  &__bef{
+    &::before {
+      content: url('../shared/assets/icon/next-disabled.png');
+      position: absolute;
+      right: 15px;
+      top: 15.5px;
+    }
+  }
+
+  &__activ {
+    &::before {
+      content: url('../shared/assets/icon/next.png');
+      position: absolute;
+      right: 15px;
+      top: 15.5px;
+    }
+  }
+
+  &-reset {
+    color: #949494;
+  }
+}

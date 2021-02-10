@@ -1,0 +1,33 @@
+
+.login-card {
+  width: 410px;
+  border-radius: 6px;
+  overflow: hidden;
+  align-items: center;
+  min-height: 345px;
+
+  background:-webkit-radial-gradient(138.81% 16453.56% at -23.78% 12.1%, #3C8291 9.59%, #00B5AD 100%);
+  background:-moz-radial-gradient(138.81% 16453.56% at -23.78% 12.1%, #3C8291 9.59%, #00B5AD 100%);
+  background:-ms-radial-gradient(138.81% 16453.56% at -23.78% 12.1%, #3C8291 9.59%, #00B5AD 100%);
+  background: radial-gradient(138.81% 16453.56% at -23.78% 12.1%, #3C8291 9.59%, #00B5AD 100%);
+}
+
+.login-auth {
+  width: 100%; 
+  position: relative;
+  background: #fff; 
+  padding: 0 45px;
+  overflow:hidden;
+}
+
+.form {
+  width: 100%;
+  opacity: 1;
+}
+
+.login-title {
+  font-size: 14px;
+  margin: 15px 0;
+  font-weight: 400px;
+  color: #000;
+}
